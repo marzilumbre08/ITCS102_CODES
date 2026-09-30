@@ -30,5 +30,5 @@ if age >= 21 and is_employed == True:
             print("Your base rate is",base_rate)
     elif credit_score < 600:
             print("Rejected: Credit score too low.")
-    else:
-        print("Rejected: Fails baseline criteria.")
+else:
+    print("Rejected: Fails baseline criteria.")
