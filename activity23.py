@@ -1,7 +1,7 @@
 # JEEPNEY SIMULATOR (interactive)
 route = ["Petron","Doctors","DLL"]
 passengers = []
-SEATS = 6
+SEATS = 12
 FARE = 13
 total = 0 
 
@@ -11,7 +11,7 @@ while True:
     print(len(passengers),"of", SEATS,"seats")
     print("1 Sakay \n2 Priority seat \n3 Para po!")
     print("4 Baba sa pinto \n5 Baba sa harap")
-    print("6 Seat check \n7 Balikan \n8 Total fare today")
+    print("6 Seat check \n7 Balikan \n8 Total fare earned")
     choice = input("Choice: ")
 
     if choice == "1":
